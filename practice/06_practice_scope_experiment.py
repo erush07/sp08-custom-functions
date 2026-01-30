@@ -23,3 +23,11 @@ You're troubleshooting a budgeting tool.
 This exercise shows the difference between local and global variables with
 the same name.
 '''
+budget = 1000
+
+def spend_money():
+    budget = 200
+    print(f"inside function, budget is: {budget}")
+
+spend_money()
+print(f"Outside function, budget is: {budget}")

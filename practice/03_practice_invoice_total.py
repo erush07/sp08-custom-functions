@@ -20,3 +20,11 @@ of price and quantity.
 2. Call calculate_total() and store the return value.
 3. Print: You owe $36.0 for 3 widgets at $12.0 each.
 '''
+
+def calculate_total(price, quantity):
+    price = float(input("What is the price of the item? "))
+    quantity = float(input("What is the quantiy you are purchaseing of the item? "))
+    total = price * quantity
+    print(f"You owe {total} for {quantity} widgets at ${price} each.")
+
+calculate_total(12, 3)

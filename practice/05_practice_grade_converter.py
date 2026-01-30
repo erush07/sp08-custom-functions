@@ -25,3 +25,19 @@ Convert numeric grades to letters for a course gradebook.
 2. Call the function with at least three different numeric grades and print
    the results.
 '''
+def convert_to_letter(grade):
+    if grade >= 90:
+        letter_grade = "A"
+    elif grade >= 80:
+        letter_grade = "B"
+    elif grade >= 70:
+        letter_grade = "C"
+    elif grade >= 60:
+        letter_grade = "D"
+    else:
+        letter_grade = "F"
+    print(letter_grade)
+
+convert_to_letter(90)
+convert_to_letter(75)
+convert_to_letter(89)

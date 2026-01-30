@@ -20,3 +20,9 @@ Simulate emailing from an information systems dashboard.
 2. Call it once with only the recipient.
 3. Call it again with recipient and a custom subject.
 '''
+
+def send_email(recipient, subject = "No Subject"):
+    print(f"Sending email to {recipient} with subject: '{subject}' ")
+
+send_email("bob@example.com")
+send_email("bob@example.com", "Very Important Stuff")

@@ -22,3 +22,8 @@ You're building a welcome system for a small business's internal portal.
     ***********************************
 2. Call the function once so the banner appears when the script runs.
 '''
+
+def print_welcome():
+    print("Welcome to the Acme Analytics Portal!\nYour business insights await.")
+
+print_welcome()

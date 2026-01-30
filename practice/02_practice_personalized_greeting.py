@@ -19,3 +19,9 @@ Create a function greet_user(name) that prints a personalized greeting:
 1. Define the function as described above.
 2. Call the function twice, passing two different names to test it.
 '''
+
+def greet_user(name):
+    print(f"Hello, {name}! Welcome back to your dashboard.")
+
+greet_user("Bob")
+greet_user("Jill")
